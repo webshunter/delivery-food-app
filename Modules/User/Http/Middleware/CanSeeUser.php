@@ -18,7 +18,7 @@ class CanSeeUser
     {
         $x = 1;
         if($x === 1){
-            return redirect('/');
+            // return redirect('/');
         }
         return $next($request);
     }
